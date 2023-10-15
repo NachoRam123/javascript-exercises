@@ -6,7 +6,7 @@ function reverseString (string) {
     }
     return reverse
 };
-// let reverseString = 'hola';
-console.log(reverseString('hola'))
+let palabra = 'hola';
+console.log(palabra.split("").reverse().join(""))
 // Do not edit below this line
 module.exports = reverseString;
